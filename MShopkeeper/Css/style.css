@@ -1,0 +1,623 @@
+﻿body {
+    margin: 0;
+    margin-top: 1px;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+.menu {
+    float: left;
+    height: 100vh;
+    width: 165px;
+    background: #026b97;
+}
+
+.content {
+    width: calc(100% - 165px);
+    height: 100vh;
+    margin-left: 165px;
+}
+
+#logo {
+    width: 100%;
+    height: 52px;
+    display: flex;
+    background-color: #006189;
+}
+
+#menu-content {
+    width: 100%;
+}
+
+.iconbar {
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url('../Content/logo-mshopkeeper.png');
+}
+
+.menu-item {
+    color: #fff;
+    height: 30px;
+    display: flex;
+    margin-top: 1px;
+    line-height: 30px;
+}
+
+    .menu-item:hover {
+        background-color: #00577b;
+        cursor: pointer;
+    }
+
+.menu-item-icon {
+    width: 40px;
+    height: 100%;
+    background-image: url('../Content/slibarmenu.png');
+    background-repeat: no-repeat;
+}
+
+.icon-overall {
+    background-position: 9px 3px;
+}
+
+.icon-report {
+    background-position: 9px -275px;
+}
+
+.icon-sale {
+    background-position: 9px -196px;
+}
+
+.icon-sms {
+    background-position: 9px -75px;
+}
+
+.icon-electricbill {
+    background-position: 9px -117px;
+}
+
+.icon-list {
+    background-position: 9px -236px;
+}
+
+.icon-seting {
+    background-position: 9px -317px;
+}
+
+.icon-help {
+    background-position: 9px -383px;
+}
+
+.icon-user {
+    background-position: 9px -420px;
+}
+
+.icon-osm {
+    background-position: 9px 3px;
+}
+
+.icon-5shop {
+    background-image: url('../Content/icon_5shop_white_24_1.png');
+    background-position-x: 9px;
+}
+
+.icon-api {
+    background-position: 11px -354px;
+}
+
+
+.content-header {
+    width: 100%;
+    height: 52px;
+    display: flex;
+}
+
+.header-text {
+    box-sizing: border-box;
+    padding-left: 5px;
+    height: 100%;
+    line-height: 52px;
+    width: 55%;
+}
+
+#title {
+    margin: auto;
+}
+
+.header-other {
+    display: flex;
+    height: 100%;
+    width: 45%;
+    justify-content: flex-end;
+}
+
+    .header-other > div:hover {
+        background-color: #f2ebeb;
+        cursor: pointer;
+    }
+
+#phone-page {
+    border: 1px solid #5897ce;
+    width: 10%;
+    background-color: #026b97;
+    background-image: url('../Content/images/misasupport_1.png');
+    background-repeat: no-repeat;
+    background-position-x: 6px;
+}
+
+#notification-page {
+    border: 1px solid #5897ce;
+    width: 10%;
+    background-image: url('../Content/images/notify-18.png');
+    background-repeat: no-repeat;
+    background-position-x: 18px;
+    background-position-y: 16px;
+}
+
+#help-page {
+    border: 1px solid #5897ce;
+    width: 10%;
+    background-image: url('../Content/images/icon_help_18.png');
+    background-repeat: no-repeat;
+    background-position-x: 18px;
+    background-position-y: 16px;
+}
+
+#admin-page {
+    width: 35%;
+    display: flex;
+    line-height: 52px;
+}
+
+#admin-image {
+    margin: auto;
+    width: 28px;
+    height: 28px;
+    background-size: 28px;
+    background-image: url(https://misard.mshopkeeper.vn/backendg1/api/Image?id=&type=0&w=50&h=50&CompanyCode=misard);
+    background-repeat: no-repeat;
+}
+
+#admin-name {
+    display: inline;
+    margin: auto;
+}
+
+#misard {
+    width: 35%;
+    border: 1px solid #5897ce;
+    text-align: center;
+    line-height: 52px;
+}
+
+.content-main {
+    position: relative;
+    background: #e5e6eb;
+    width: 100%;
+    height: calc(100% - 52px);
+}
+
+.content-grid {
+    position: absolute;
+    top: 20px;
+    left: 10px;
+    right: 10px;
+    bottom: 10px;
+}
+
+.toobar {
+    width: 100%;
+    height: 30px;
+    display: flex;
+    background-color: #006189;
+}
+
+    .toobar a {
+        height: 100%;
+        display: flex;
+        line-height: 30px;
+        padding-left: 5px;
+        padding-right: 5px;
+        border-right: 1px solid #808080;
+    }
+
+        .toobar a:hover {
+            background-color: #026b97;
+            cursor: pointer;
+        }
+
+.toobar-text {
+    line-height: 30px;
+    color: white;
+}
+
+.toobar-icon {
+    height: 18px;
+    width: 18px;
+    margin: auto;
+}
+
+    .toobar-icon i {
+        width: 16px;
+        height: 15px;
+        display: block;
+    }
+
+.toobar-icon-add {
+    background: url(../Content/images/common-icon.png) no-repeat -1px -127px;
+}
+
+.toobar-icon-copy {
+    background: url(../Content/images/common-icon.png) no-repeat -976px -127px;
+}
+
+.toobar-icon-edit {
+    background: url(../Content/images/common-icon.png) no-repeat -77px -203px;
+}
+
+.toobar-icon-delete {
+    background: url(../Content/images/common-icon.png) no-repeat -1076px -127px;
+}
+
+.toobar-icon-reload {
+    background: url(../Content/images/common-icon.png) no-repeat -876px -127px;
+}
+
+/*table*/
+.grid table {
+    margin-top: 5px;
+    width: 100%;
+    border-collapse: collapse;
+    border: #e6d6d6;
+}
+
+table #grid-check {
+    width: 30px;
+    height: 100%;
+}
+
+table td {
+    padding: 4px;
+}
+
+table tbody tr:hover {
+    background-color: #026b97;
+}
+
+.dialog-modal {
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+    background-color: #808080;
+    opacity: 0.4;
+    display:none;
+}
+
+/*them nhan vien*/
+.dialog-add {
+    position: absolute;
+    top: calc(50% - 200px);
+    left: calc(50% - 300px);
+    bottom: 0;
+    right: 0;
+    width: 600px;
+    height: 400px;
+    border: 3px solid #808080;
+    border-radius: 3px;
+    background-color: #ffffff;
+    display: none;
+}
+
+    .dialog-add .dialog-add-title {
+        width: 100%;
+        height: 30px;
+        display: flex;
+        background-color: #f0f0f0;
+    }
+
+#dialog-add-text {
+    height: 100%;
+    width: 95%;
+    line-height: 30px;
+}
+
+    #dialog-add-text > h4 {
+        padding-left: 5px;
+        display: inline;
+    }
+
+#dialog-add-exit {
+    height: 100%;
+    width: 5%;
+    background: url('../Content/common-icon.png') no-repeat -1121px -121px;
+}
+
+    #dialog-add-exit:hover {
+        cursor: pointer;
+    }
+
+.dialog-add-body {
+    width: 100%;
+    height: calc(100% - 60px);
+}
+
+    .dialog-add-body .dialog-add-row {
+        margin-top: 1px;
+        display: flex;
+        width: 100%;
+        height: 50px;
+    }
+
+.dialog-add-row .row-text {
+    width: 25%;
+    box-sizing: border-box;
+    line-height: 50px;
+    padding-left: 5px;
+}
+
+.dialog-add-row input {
+    height: 70%;
+    padding-left: 2px;
+    width: 187px;
+}
+#group-select {
+    width: 150px;
+    height: 85%;
+}
+#open-sub {
+    height: 85%;
+    width: 43px;
+    background-color: #f0f0f0;
+    box-sizing: border-box;
+    padding-left: 12px;
+    padding-top: 7px;
+}
+    #open-sub:hover{
+        cursor:pointer;
+    }
+    #icon-open-sub {
+        height: 25px;
+        width: 16px;
+        background: url(../Content/common-icon.png) no-repeat -26px -121px;
+    }
+#redstar {
+    color: red;
+}
+
+
+.dialog-add .dialog-add-footer {
+    width: 100%;
+    height: 30px;
+    border-top: 1px solid #d7d7d7;
+    background-color: #f0f0f0;
+    display: flex;
+    font-size: 16px;
+    color: #026b97;
+}
+
+.dialog-add-footer div {
+    display: flex;
+    line-height: 28px;
+}
+
+.dialog-add-footer .dialog-add-help {
+    width: 30%;
+    margin-right: 70px;
+}
+
+.add-footer-icon-help {
+    height: 100%;
+    width: 20px;
+    background: url('../Content/help.png') no-repeat 4px 8px;
+    margin-right: 10px;
+}
+
+.dialog-add-footer .dialog-add-save {
+    width: 13%;
+    border: 1px solid;
+    background: #006189;
+    color: white;
+    border-radius: 3px;
+    margin-right: 5px;
+}
+
+.dialog-add-save:hover {
+    background-color: #026b97;
+    cursor: pointer;
+}
+
+.add-footer-icon-save {
+    height: 100%;
+    width: 16px;
+    background: url(../Content/common-icon.png) no-repeat -327px -121px;
+    margin-right: 10px;
+}
+
+.dialog-add-footer .dialog-add-saveadd {
+    width: 25%;
+    border: 1px solid #026b97;
+    border-radius: 3px;
+    margin-right: 5px;
+}
+
+.dialog-add-saveadd:hover {
+    color: #f1d6d6;
+    cursor: pointer;
+}
+
+.add-footer-icon-saveadd {
+    height: 100%;
+    width: 16px;
+    background: url(../Content/common-icon.png) no-repeat -26px -121px;
+    margin-right: 10px;
+}
+
+.dialog-add-footer .dialog-add-remove {
+    width: 16%;
+}
+
+.dialog-add-remove:hover {
+    border: 1px solid #026b97;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.add-footer-icon-remove {
+    height: 100%;
+    width: 16px;
+    background: url(../Content/common-icon.png) no-repeat -252px -121px;
+    margin-right: 10px;
+}
+
+
+.dialog-modal-sub {
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+    background-color: #808080;
+    opacity: 0.4;
+    display:none;
+}
+
+/*gruop customer dialog*/
+.sub-dialog {
+    position: absolute;
+    top: calc(50% - 150px);
+    left: calc(50% - 200px);
+    bottom: 0;
+    right: 0;
+    width: 400px;
+    height: 300px;
+    border: 3px solid #808080;
+    border-radius: 3px;
+    background-color: #ffffff;
+    display:none;
+}
+.sub-dialog-title {
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+    display: flex;
+    background-color: #f0f0f0;
+}
+#sub-dialog-text{
+    width:95%;
+    margin-left:10px;
+}
+.sub-dialog-exit {
+    height: 100%;
+    width: 5%;
+    background: url('../Content/common-icon.png') no-repeat -1127px -123px;
+}
+    .sub-dialog-exit:hover{
+        cursor:pointer;
+    }
+    #sub-dialog-text h4 {
+        display: inline;
+    }
+.sub-dialog-body{
+    width:100%;
+    height:calc(100% - 70px);
+}
+.sub-dialog-row{
+    margin :5px 5px 0px 10px;
+    display:flex;
+    height:40px;
+    line-height:40px;
+    
+}
+.sub-dialog-row .row-text{
+    width:50%;
+}
+.group-desc{
+    height:70px;
+}
+
+.sub-dialog-footer {
+    width: 100%;
+    height: 40px;
+    border-top: 1px solid #5897ce;
+}
+
+.sub-dialog-footer{
+    display:flex;
+}
+    .sub-dialog-footer div {
+        display:flex;
+        height:80%;
+        line-height:32px;
+    }
+    .sub-dialog-footer .sub-dialog-help {
+        padding-left:20px;
+        width: 50%;
+        margin-right: 5px;
+    }
+    .sub-icon-help {
+        height: 100%;
+        width: 20px;
+        background: url('../Content/help.png') no-repeat 4px 12px;
+        margin-right: 10px;
+    }
+    .sub-dialog-footer .sub-dialog-save {
+        width: 23%;
+        border: 1px solid;
+        background: #006189;
+        color: white;
+        border-radius: 3px;
+        margin-right: 5px;
+    }
+
+    .sub-dialog-save:hover {
+        background-color: #026b97;
+        cursor: pointer;
+    }
+
+    .sub-icon-save {
+        height: 100%;
+        width: 16px;
+        background: url(../Content/common-icon.png) no-repeat -327px -116px;
+        margin-right: 10px;
+    }
+.sub-dialog-footer .sub-dialog-remove {
+    height:75%;
+    margin:1px 1px 1px 1px;
+    width: 27%;
+    border: 1px solid #006189;
+    border-radius: 3px;
+}
+.sub-dialog-remove:hover {
+    background-color: #026b97;
+    cursor: pointer;
+}
+
+.sub-icon-remove {
+    height: 100%;
+    width: 16px;
+    background: url(../Content/common-icon.png) no-repeat -252px -121px;
+    margin-right: 10px;
+}
+
+.row-selected {
+    background-color: #026b97;
+}
+
+.required-error, .required-error:focus {
+    border: 1px solid red;
+}
+
+.green{
+    background-color:forestgreen;
+}
+
+
+.grid {
+    height: 555px;
+    overflow-y: auto;
+}

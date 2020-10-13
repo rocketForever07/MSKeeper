@@ -1,0 +1,8 @@
+C:\Users\Admin\source\repos\MISA.WDT02.DTKhoi\MISA.DL\bin\Debug\MISA.DL.dll
+C:\Users\Admin\source\repos\MISA.WDT02.DTKhoi\MISA.DL\bin\Debug\MISA.DL.pdb
+C:\Users\Admin\source\repos\MISA.WDT02.DTKhoi\MISA.DL\obj\Debug\MISA.DL.csprojAssemblyReference.cache
+C:\Users\Admin\source\repos\MISA.WDT02.DTKhoi\MISA.DL\obj\Debug\MISA.DL.dll
+C:\Users\Admin\source\repos\MISA.WDT02.DTKhoi\MISA.DL\obj\Debug\MISA.DL.pdb
+C:\Users\Admin\source\repos\MISA.WDT02.DTKhoi\MISA.DL\bin\Debug\MISA.Entities.dll
+C:\Users\Admin\source\repos\MISA.WDT02.DTKhoi\MISA.DL\bin\Debug\MISA.Entities.pdb
+C:\Users\Admin\source\repos\MISA.WDT02.DTKhoi\MISA.DL\obj\Debug\MISA.DL.csproj.CopyComplete

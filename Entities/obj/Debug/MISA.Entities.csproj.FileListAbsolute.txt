@@ -1,0 +1,5 @@
+C:\Users\Admin\source\repos\MISA.WDT02.DTKhoi\MISA.Entities\bin\Debug\MISA.Entities.dll
+C:\Users\Admin\source\repos\MISA.WDT02.DTKhoi\MISA.Entities\bin\Debug\MISA.Entities.pdb
+C:\Users\Admin\source\repos\MISA.WDT02.DTKhoi\MISA.Entities\obj\Debug\MISA.Entities.dll
+C:\Users\Admin\source\repos\MISA.WDT02.DTKhoi\MISA.Entities\obj\Debug\MISA.Entities.pdb
+C:\Users\Admin\source\repos\MISA.WDT02.DTKhoi\MISA.Entities\obj\Debug\MISA.Entities.csprojAssemblyReference.cache
